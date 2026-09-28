@@ -1,0 +1,107 @@
+body {
+		text-align: center;
+		font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-size: 2.5mm;
+		color:#10753A;
+	}
+	body.print {
+			width: 21.5cm;
+			height: 29.5cm;
+			border: 1px solid #10753A;
+			margin: 0;
+			padding: 0;
+	}
+	section {
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: auto;
+		text-align: left;
+		width: 10.5cm;
+		height: 6.5cm;
+		border: 1px solid gray;
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	body.print section {
+			float: left;
+			margin-bottom: 0;
+	}
+	.x {
+		font-size: 5em;
+		position: absolute;
+		top: 12mm;
+		left: 10px;
+	}
+	.content {
+		padding-left: 0.5cm;
+	}
+	.content.social {
+		margin-top: 76px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+	.content.social .logo {
+		display: flex;
+		align-items: center;
+	}
+	.content.social .brand {
+		font-size: 1.5em;
+		font-weight: 500;
+	}
+	.content.social svg {
+		width: 20px;
+		height: 20px;
+	}
+	.content.info {
+		border-top: 1px solid #10753A;
+		padding-top: 5px;
+		margin-top: 60px;
+	}
+	h1 {
+		font-size: 1.4em;
+		margin: 0;
+		padding: 0;
+	}
+	.git, .copyright, .version {
+		font-size: 0.8em;
+		position: absolute;
+		bottom: 5px;
+		color: #333333;
+	}
+	.git, .copyright {
+		left: 15px;
+	}
+	.version {
+		right: 15px;
+	}
+	.qrcode {
+		font-size: 5em;
+		position: absolute;
+		top: 12mm;
+		left: 3mm;
+	}
+	.qrcode img {
+		width: 90px;
+		height: 90px;
+	}
+	.code {
+		margin-top: 60px;
+	}
+	.row.row-bold {
+		padding-left: 40mm;
+		font-weight: bold;
+	}
+	.row {
+		padding-left: 50mm;
+		padding-bottom: 3px;
+		padding-top: 3px;
+		border-bottom: 1px solid #888888;
+		font-size: 0.7em;
+	}
+	.smily {
+		text-align: center;
+		padding-top: 14mm;
+		font-size: 5em;
+	}
